@@ -6,7 +6,7 @@ function Orders() {
     <div className="orders">
       <div className="color">{data.id}</div>
       <div>{data.date}</div>
-      <div className="alignRight">{data.amount}</div>
+      <div className="alignRight">&#x20B9;{data.amount}</div>
       <div className="alignRight">{data.transaction}</div>
     </div>
   );
